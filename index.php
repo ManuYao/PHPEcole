@@ -16,12 +16,13 @@
         <p></p>
       </div>
     </div>
-
+<!--^^^^^^^^^^Page^^^^^^^^^^-->
     <?php
-      require "class/tyrex.php";
+      require "dinosaure.php";
       echo "Hello World";
-      $tyrex = new $tyrex(300,200,65,'sol',"toto","M")
-    
+      $tyrex = new tyrex(300,200,65,'sol',"taty","M",15);
+      var_dump($tyrex);
+
      ?>
   </body>
 </html>
