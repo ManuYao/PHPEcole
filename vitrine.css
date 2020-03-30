@@ -1,0 +1,29 @@
+#back{
+  display: flex;
+  height: 1000px;
+  z-index: 0;
+}
+#logo{
+  height: 150px;
+}
+.logoText{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -900px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.bouton{
+  border-radius: 40px;
+  
+  padding: 8px 25px;
+  border-color: #297DFF;
+  border-style: solid;
+  box-shadow: 2px 2px 3px #aaa;
+  font-size: 15px;
+  cursor: pointer;
+}
+.bouton:hover{
+  background-color: #297DFF;
+  color: white;
+}

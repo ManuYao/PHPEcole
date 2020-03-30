@@ -83,7 +83,6 @@ class tyrex extends dinosaure{
 }
 
 
-
 class pterodactyle extends dinosaure{
 
 
