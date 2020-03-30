@@ -5,10 +5,23 @@
     <title></title>
   </head>
   <body>
+    <div id="image">
+      <img src="" alt="Fond d'image">
+    </div>
+    <div class="logoText">
+      <div id="Logo">
+        <img src="" alt="LogoWeb">
+      </div>
+      <div id="text">
+        <p></p>
+      </div>
+    </div>
+
     <?php
+      require "class/tyrex.php";
       echo "Hello World";
-      $chien = new $chien("10","Labrador","Yo","M");
-      var_dump
+      $tyrex = new $tyrex(300,200,65,'sol',"toto","M")
+    
      ?>
   </body>
 </html>
