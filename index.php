@@ -7,6 +7,8 @@
   <body>
     <?php
       echo "Hello World";
+      $chien = new $chien("10","Labrador","Yo","M");
+      var_dump
      ?>
   </body>
 </html>
