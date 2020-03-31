@@ -20,26 +20,29 @@
           </div>
         </div>
       </nav>
+      <form method="POST" action="#">
     </header>
 <!--^^^^^^^^^^Page^^^^^^^^^^-->
-    <?php
-      require "dinosaure.php";
-      echo "Hello World";
-      $tyrex0 = new tyrex(300,200,65,'sol',"taty","M",15);
-      $tyrex1 = new tyrex(300,100,65,'sol',"taty","M",15);
-      var_dump($tyrex0);
-      var_dump($tryrex1);
-      while ($tyrex0->getLife[] > 0 || $tyrex1 ->getLife[] > 0) {
-        if ($tyrex1->getLife[] <- 0){
-          echo $tyrex1->getName(). "est mort";
-          breack;
-        }
-        if ($tyrex1->getLife[] <- 0){
-          echo $tyrex0->getName(). "est mort";
-          breack;
-        }
-      }
+  <form action="#" method="POST">
 
+    <?php
+    require "Formulaire.php";
+    $form = new autoform();
+    $form->getInputText("name","Name");
+    $form->getInputText("gender","Sexe");
+    $form->getpwd("mdp","mdp");
+    $form->getpwd("mdp1","mdp");
+    $form->getInputSubmit("Valider");
      ?>
+  </form>
+     <?php
+        if (!empty($_POST)) {
+          echo $_POST["name"];
+        }
+
+        if ($_POST["mdp"] == $_POST["mdp1"] ) {
+          echo $_POST["gender"];
+        }
+      ?>
   </body>
 </html>
