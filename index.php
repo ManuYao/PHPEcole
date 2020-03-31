@@ -32,16 +32,24 @@
     $form->getInputText("gender","Sexe");
     $form->getpwd("mdp","mdp");
     $form->getpwd("mdp1","mdp");
+    $form->getunputTypeList("list0",array("toto","tata"));
+    $form->getunputTypeList("list1",array("dino0","dino1","dino3"));
+    $form->getBtn(array("btn","btn1"));
+    $form->getTextArea("msg");
+    $form->getDate("date","datz");
     $form->getInputSubmit("Valider");
      ?>
   </form>
      <?php
+
+
+     var_dump($_POST);
         if (!empty($_POST)) {
           echo $_POST["name"];
-        }
 
-        if ($_POST["mdp"] == $_POST["mdp1"] ) {
-          echo $_POST["gender"];
+          if ($_POST["mdp"] == $_POST["mdp1"] ) {
+            echo $_POST["gender"];
+          }
         }
       ?>
   </body>

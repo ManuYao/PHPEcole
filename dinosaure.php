@@ -17,6 +17,7 @@ class dinosaure{
         $this->_type = $type;
         $this->_name = $name;
         $this->_gender = $gender;
+        $this->_weight = $weight;
     }
 
 
