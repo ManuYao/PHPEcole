@@ -1,7 +1,14 @@
 #back{
   display: flex;
-  height: 1000px;
+  height: 500%;
   z-index: 0;
+}
+.bloc1{
+  height: 730px;
+  width: 700px;
+  background: rgb(93, 121, 99);
+  }
+
 }
 #logo{
   height: 150px;
@@ -15,7 +22,6 @@
 }
 .bouton{
   border-radius: 40px;
-  
   padding: 8px 25px;
   border-color: #297DFF;
   border-style: solid;

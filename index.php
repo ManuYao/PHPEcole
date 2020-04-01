@@ -7,9 +7,8 @@
   </head>
   <body>
     <header>
-    <div class="#">
-      <img id="back" src="img/imgAcc.jpg" alt="Fond d'image">
-    </div>
+    <div class="bloc1"></div>
+    <div class="bloc2"></div>
       <nav>
         <div class="logoText">
           <div id="#">
